@@ -12,7 +12,6 @@
 		101C60B12039FA6700F95371 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 101C60AF2039FA6700F95371 /* Main.storyboard */; };
 		101C60B32039FA6700F95371 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 101C60B22039FA6700F95371 /* Assets.xcassets */; };
 		101C60B62039FA6700F95371 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 101C60B42039FA6700F95371 /* LaunchScreen.storyboard */; };
-		101C60C12039FA6700F95371 /* TopDownDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101C60C02039FA6700F95371 /* TopDownDemoTests.swift */; };
 		101C60CC2039FAC200F95371 /* FlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101C60CB2039FAC200F95371 /* FlowCoordinator.swift */; };
 		101C60CF2039FB7F00F95371 /* ErrorHandleable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101C60CE2039FB7F00F95371 /* ErrorHandleable.swift */; };
 		101C60D12039FB8E00F95371 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101C60D02039FB8E00F95371 /* ErrorHandler.swift */; };
@@ -29,16 +28,6 @@
 		101C60EA203A0B0900F95371 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 101C60E8203A0B0900F95371 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		101C60BD2039FA6700F95371 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 101C60A02039FA6700F95371 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 101C60A72039FA6700F95371;
-			remoteInfo = TopDownDemo;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		101C60A82039FA6700F95371 /* TopDownDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopDownDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		101C60AB2039FA6700F95371 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,9 +36,6 @@
 		101C60B22039FA6700F95371 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		101C60B52039FA6700F95371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		101C60B72039FA6700F95371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		101C60BC2039FA6700F95371 /* TopDownDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopDownDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		101C60C02039FA6700F95371 /* TopDownDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopDownDemoTests.swift; sourceTree = "<group>"; };
-		101C60C22039FA6700F95371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		101C60CB2039FAC200F95371 /* FlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowCoordinator.swift; sourceTree = "<group>"; };
 		101C60CE2039FB7F00F95371 /* ErrorHandleable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandleable.swift; sourceTree = "<group>"; };
 		101C60D02039FB8E00F95371 /* ErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
@@ -74,13 +60,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		101C60B92039FA6700F95371 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -88,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				101C60AA2039FA6700F95371 /* TopDownDemo */,
-				101C60BF2039FA6700F95371 /* TopDownDemoTests */,
 				101C60A92039FA6700F95371 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				101C60A82039FA6700F95371 /* TopDownDemo.app */,
-				101C60BC2039FA6700F95371 /* TopDownDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,15 +95,6 @@
 				101C60B72039FA6700F95371 /* Info.plist */,
 			);
 			path = TopDownDemo;
-			sourceTree = "<group>";
-		};
-		101C60BF2039FA6700F95371 /* TopDownDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				101C60C02039FA6700F95371 /* TopDownDemoTests.swift */,
-				101C60C22039FA6700F95371 /* Info.plist */,
-			);
-			path = TopDownDemoTests;
 			sourceTree = "<group>";
 		};
 		101C60CD2039FB3A00F95371 /* Errors */ = {
@@ -190,24 +158,6 @@
 			productReference = 101C60A82039FA6700F95371 /* TopDownDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		101C60BB2039FA6700F95371 /* TopDownDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 101C60C82039FA6700F95371 /* Build configuration list for PBXNativeTarget "TopDownDemoTests" */;
-			buildPhases = (
-				101C60B82039FA6700F95371 /* Sources */,
-				101C60B92039FA6700F95371 /* Frameworks */,
-				101C60BA2039FA6700F95371 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				101C60BE2039FA6700F95371 /* PBXTargetDependency */,
-			);
-			name = TopDownDemoTests;
-			productName = TopDownDemoTests;
-			productReference = 101C60BC2039FA6700F95371 /* TopDownDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -221,11 +171,6 @@
 					101C60A72039FA6700F95371 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-					};
-					101C60BB2039FA6700F95371 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 101C60A72039FA6700F95371;
 					};
 				};
 			};
@@ -243,7 +188,6 @@
 			projectRoot = "";
 			targets = (
 				101C60A72039FA6700F95371 /* TopDownDemo */,
-				101C60BB2039FA6700F95371 /* TopDownDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,13 +202,6 @@
 				101C60EA203A0B0900F95371 /* MainViewController.xib in Resources */,
 				101C60B32039FA6700F95371 /* Assets.xcassets in Resources */,
 				101C60B12039FA6700F95371 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		101C60BA2039FA6700F95371 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,23 +229,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		101C60B82039FA6700F95371 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				101C60C12039FA6700F95371 /* TopDownDemoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		101C60BE2039FA6700F95371 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 101C60A72039FA6700F95371 /* TopDownDemo */;
-			targetProxy = 101C60BD2039FA6700F95371 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		101C60AF2039FA6700F95371 /* Main.storyboard */ = {
@@ -465,38 +386,6 @@
 			};
 			name = Release;
 		};
-		101C60C92039FA6700F95371 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TopDownDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.polaczyk.topdown.TopDownDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopDownDemo.app/TopDownDemo";
-			};
-			name = Debug;
-		};
-		101C60CA2039FA6700F95371 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TopDownDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.polaczyk.topdown.TopDownDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopDownDemo.app/TopDownDemo";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -514,15 +403,6 @@
 			buildConfigurations = (
 				101C60C62039FA6700F95371 /* Debug */,
 				101C60C72039FA6700F95371 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		101C60C82039FA6700F95371 /* Build configuration list for PBXNativeTarget "TopDownDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				101C60C92039FA6700F95371 /* Debug */,
-				101C60CA2039FA6700F95371 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

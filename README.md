@@ -1,7 +1,8 @@
-# TopDownErrorSample
+# Top-Down error handling sample
 
 
-Sample of Swift Top-Down error handling architecture described in the blogpost:
+Sample of a Swift Top-Down error handling architecture described in the blogpost:
+
 https://medium.com/@londeix/top-down-error-architecture-d8715a28d1ad
 
 
